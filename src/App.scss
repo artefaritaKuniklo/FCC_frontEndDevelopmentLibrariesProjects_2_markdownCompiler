@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  nav {
+    height: 30px;
+    display: flex;
+    border: 1px solid black;
+    margin: 4px;
+    justify-content: space-between;
+    h2 {
+      margin: 0 4px;
+    }
+  }
+  #panel {
+    display: flex;
+    flex-grow: 1;
+    #editor {
+      flex-grow: 1;
+      border: 1px solid black;
+      margin: 4px;
+      resize: horizontal;
+    }
+    #preview {
+      flex-grow: 1;
+      border: 1px solid black;
+      margin: 4px;
+    }
+  }
+}
